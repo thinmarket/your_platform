@@ -6,18 +6,18 @@
 
 ## Структура проекта
 ```
-your_platform/
-│   main.py
+your_platform/          ← Корневая папка проекта
+│   main.py             ← Файл в корне
+│   README.md           ← Файл в корне
 │
-├───resources
+├───resources           ← Подпапка
 │   └───styles
 │       ├───dark
 │       │       main.qss
-│       │
 │       └───light
 │               main.qss
 │
-└───utils
-    │   theme_manager.py
-    │   __init__.py
+└───utils               ← Подпапка
+        theme_manager.py
+        __init__.py
 ```
