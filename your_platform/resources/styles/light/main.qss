@@ -1,0 +1,5 @@
+   /* resources/styles/light/main.qss */
+   * {
+       background-color: #f0f0f0;
+       color: #202020;
+   }

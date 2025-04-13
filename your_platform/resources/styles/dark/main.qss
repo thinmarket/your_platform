@@ -1,0 +1,30 @@
+/* resources/styles/dark/main.qss */
+* {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QMenuBar {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QMenuBar::item {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QMenuBar::item:selected {
+    background-color: #444444; /* Цвет фона при наведении */
+    color: #ffffff; /* Цвет текста при наведении */
+}
+
+QMenu {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+QMenu::item:selected {
+    background-color: #444444; /* Цвет фона при наведении */
+    color: #ffffff; /* Цвет текста при наведении */
+}
